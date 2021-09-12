@@ -166,5 +166,3 @@ driver.quit()
 
 logger.info(f'total time - {datetime.datetime.now() - start_time}')
 # logger.info(f'get {new_url} debitors')
-print(diff_urls)
-print(len(diff_urls))
