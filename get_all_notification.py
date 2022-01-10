@@ -57,7 +57,7 @@ class Lot:
         con = psycopg2.connect(
             database='efrsb',
             user='postgres',
-            password='paedf5l5',
+            password='********',
             host='127.0.0.1',
             port='5432'
         )
