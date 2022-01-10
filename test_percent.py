@@ -176,7 +176,7 @@ def insert_to_main_table(data):
     con = psycopg2.connect(
         database='efrsb',
         user='postgres',
-        password='paedf5l5',
+        password='********',
         host='127.0.0.1',
         port='5432'
     )
@@ -213,7 +213,7 @@ def extract_data_from_postgresql():
     con = psycopg2.connect(
         database='efrsb',
         user='postgres',
-        password='paedf5l5',
+        password='********',
         host='127.0.0.1',
         port='5432'
     )
